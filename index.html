@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/96093ea5e9.js" crossorigin="anonymous"></script>
+    <title>Recipe app</title>
+</head>
+
+<body>
+    <div class="mobile-container">
+        <header>
+            <input type="text" id="search-term">
+            <button id="search"><i class="fas fa-search">search</i></button>
+            <!-- <span class="material-icons-outlined">
+                search</span></button> -->
+        </header>
+        <div class="fav-container">
+            <h3>Faviourite Meals</h3>
+            <ul class="fav-meals" id="fav-meals">
+
+            </ul>
+        </div>
+        <div class="meals" id="meals">
+
+
+        </div>
+    </div>
+
+    <div class="popup-container hidden" id="meal-popup">
+        <div class="popup" >
+            <button id="close-popup" class="close-popup"><i class="fas fa-times"></i></button>
+
+            <div class="meal-info" id="meal-info">
+
+                
+                    
+    
+                </div>
+            </div>
+        </div>
+</body>
+<script src="script.js"></script>
+
+</html>
